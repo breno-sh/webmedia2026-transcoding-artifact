@@ -1,0 +1,28 @@
+# Secrets
+*.pem
+*.key
+.env
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Raw logs (huge — regenerate from scripts)
+*.tar.gz
+phase1_homogeneity/cpu_verification_logs/
+phase3_scaling/*_logs/
+
+# Build artifacts
+*.aux
+*.log
+*.pdf
+*.out

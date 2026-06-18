@@ -1,0 +1,12 @@
+Codec,Instance,Strategy,Runs,Mean,Median,Stdev,Cost_per_hour,Total_Cost
+libvpx-vp9,c7g.large,horizontal,30,83.10,70.61,30.35,0,0.0
+libvpx-vp9,c7g.large,serial,30,332.09,328.90,16.08,0,0.0
+libx264,c5.4xlarge,vertical,30,30.86,30.73,0.64,0.978,0.008383633333333333
+libx264,c5.large,horizontal,30,70.44,64.41,13.41,0.122,0.02387133333333333
+libx264,c5.large,serial,30,91.53,90.28,4.17,0.122,0.0031018499999999997
+libx264,c7g.4xlarge,vertical,30,28.21,28.13,0.41,0,0.0
+libx264,c7g.large,horizontal,30,113.09,107.68,18.34,0,0.0
+libx264,m5.4xlarge,vertical,30,31.77,31.71,0.22,1.106,0.00976045
+libx264,m5.large,horizontal,30,76.51,79.85,24.94,0.138,0.02932883333333334
+libx264,m5.large,serial,30,104.87,103.05,8.16,0.138,0.004020016666666667
+libx265,m7g.large,horizontal,30,66.02,59.26,30.58,0,0.0

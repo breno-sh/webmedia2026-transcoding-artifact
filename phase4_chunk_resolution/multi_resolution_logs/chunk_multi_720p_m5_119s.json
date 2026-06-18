@@ -1,0 +1,51 @@
+[
+  {
+    "trial": 1,
+    "total_time": 463.7066128253937,
+    "split_time": 3.2166543006896973,
+    "parallel_time": 460.48995661735535,
+    "part_timings": {
+      "2": {
+        "error": "An error occurred (RequestLimitExceeded) when calling the RunInstances operation (reached max retries: 4): Request limit exceeded. Account 460964766037 has been throttled on ec2:RunInstances because it exceeded its request rate limit."
+      },
+      "1": {
+        "provision": 26.893115282058716,
+        "ssh_ready": 36.51276683807373,
+        "upload": 129.97139644622803,
+        "encode": 189.13078331947327,
+        "download": 19.81833267211914,
+        "total": 403.42404890060425
+      },
+      "3": {
+        "provision": 26.08856463432312,
+        "ssh_ready": 37.24350571632385,
+        "upload": 139.6751115322113,
+        "encode": 187.413334608078,
+        "download": 26.976985931396484,
+        "total": 418.50748586654663
+      },
+      "4": {
+        "provision": 20.681553840637207,
+        "ssh_ready": 45.592336893081665,
+        "upload": 135.25637006759644,
+        "encode": 196.05735445022583,
+        "download": 47.413286447525024,
+        "total": 451.87509870529175
+      },
+      "0": {
+        "provision": 26.731894731521606,
+        "ssh_ready": 36.63537240028381,
+        "upload": 135.48749947547913,
+        "encode": 226.99535703659058,
+        "download": 31.31876540184021,
+        "total": 458.7398474216461
+      }
+    },
+    "config": {
+      "resolution": "720p",
+      "instance_type": "m5.large",
+      "chunk_secs": 120,
+      "num_parts": 5
+    }
+  }
+]

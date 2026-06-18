@@ -1,0 +1,10 @@
+Architecture,CleanRunsCount,AvgTotalTime,AvgSetupTime,AvgEncodingTime
+c5_large_horizontal_opt,30,70.97,1.55,69.42
+c5_4xlarge_vertical_opt,30,89.49,58.27,31.22
+m5_4xlarge_vertical_opt,30,93.70,58.14,35.56
+c5_large_serial_opt,30,147.49,58.73,88.76
+m5_large_horizontal_opt,30,73.12,1.57,71.54
+m5_large_serial_opt,30,162.49,59.75,102.74
+t3_micro_phase2,45,163.11,58.67,103.04
+t3_2xlarge_phase2,45,108.20,59.50,47.28
+t3_micro_paralelo_phase2,45,73.36,58.77,14.59

@@ -1,10 +1,10 @@
 # Reproducibility Artifact
 
-**Companion artifact for our WebMedia 2026 submission** (paper title withheld for double-blind review).
+Companion artifact for the WebMedia 2026 paper **"You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding"** by Breno Vasconcelos, Elisa Fátima Araújo Soares, and Carlos Ferraz (Centro de Informática, Universidade Federal de Pernambuco — UFPE).
 
 This repository contains the scripts, intermediate results, and processed datasets needed to reproduce every table, figure, and statistical claim in the paper. Raw per-run logs (≈9 GB of CPU-verification logs, FFmpeg traces, and pipeline timing dumps) are not bundled here for space reasons; the scripts below regenerate them from AWS EC2.
 
-> **Anonymity note.** This artifact has been sanitized for double-blind review: author identifiers, personal file paths, key-pair names, and security-group names have been replaced by `<author>`, `<aws-key-pair-name>`, `<aws-security-group-name>`, and `./` placeholders. You will need to substitute your own values before re-running.
+> **Reproduction placeholders.** Deployment-specific values — key-pair names, security-group names, and local file paths — appear as `<aws-key-pair-name>`, `<aws-security-group-name>`, and `./` placeholders. Substitute your own AWS values before re-running.
 
 ---
 

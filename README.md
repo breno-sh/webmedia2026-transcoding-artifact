@@ -1,6 +1,6 @@
 # Reproducibility Artifact
 
-Companion artifact for the WebMedia 2026 paper **"You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding"** by Breno Vasconcelos, Elisa Fátima Araújo Soares, and Carlos Ferraz (Centro de Informática, Universidade Federal de Pernambuco — UFPE).
+Companion artifact for the WebMedia 2026 paper **"You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding"** by Breno Vasconcelos, Elisa de Fátima Andrade Soares, and Carlos Ferraz (Centro de Informática, Universidade Federal de Pernambuco — UFPE).
 
 This repository contains the scripts, intermediate results, and processed datasets needed to reproduce every table, figure, and statistical claim in the paper. Raw per-run logs (≈9 GB of CPU-verification logs, FFmpeg traces, and pipeline timing dumps) are not bundled here for space reasons; the scripts below regenerate them from AWS EC2.
 

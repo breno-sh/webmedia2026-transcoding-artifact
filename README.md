@@ -1,6 +1,6 @@
 # Reproducibility Artifact
 
-Companion artifact for the WebMedia 2026 paper **"You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding"** by Breno Vasconcelos, Elisa de Fátima Andrade Soares, and Carlos Ferraz (Centro de Informática, Universidade Federal de Pernambuco — UFPE).
+Companion artifact for the paper **"You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding"** by Breno Vasconcelos, Elisa de Fátima Andrade Soares, and Carlos Ferraz (Centro de Informática, Universidade Federal de Pernambuco — UFPE), **accepted at WebMedia 2026 — the Brazilian Symposium on Multimedia and the Web (SBC)**.
 
 This repository contains the scripts, intermediate results, and processed datasets needed to reproduce every table, figure, and statistical claim in the paper. Raw per-run logs (≈9 GB of CPU-verification logs, FFmpeg traces, and pipeline timing dumps) are not bundled here for space reasons; the scripts below regenerate them from AWS EC2.
 
@@ -104,6 +104,32 @@ Every experiment script reads an `AWS_CONFIG` (or `CONFIG`) dictionary at the to
 - The custom AMI ID in the scripts (`ami-06c7c20c67513469a`) is private to the original AWS account. Re-build a local equivalent with `experiment_runners/phase3_master/create_custom_ami.py` before reproducing Phase 3.2.
 - All experiments target `us-east-1` (primary) and `sa-east-1` (replication). Other regions are not represented.
 
-## 8. License
+## 8. Citation
+
+If you use this artifact, please cite the paper:
+
+> Breno Vasconcelos, Elisa de Fátima Andrade Soares, and Carlos Ferraz.
+> "You Get What You Pay For—Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding."
+> In *Proceedings of the Brazilian Symposium on Multimedia and the Web (WebMedia)*, 2026.
+
+<!-- TODO (camera-ready): replace with the final BibTeX entry (DOI, pages, publisher) once the WebMedia 2026 proceedings are published. -->
+
+```bibtex
+@inproceedings{vasconcelos2026transcoding,
+  title     = {You Get What You Pay For---Except You Don't: Instance Families and Scaling Strategies for Cloud Video Transcoding},
+  author    = {Vasconcelos, Breno and Soares, Elisa de F{\'a}tima Andrade and Ferraz, Carlos},
+  booktitle = {Proceedings of the Brazilian Symposium on Multimedia and the Web (WebMedia)},
+  year      = {2026},
+  publisher = {Sociedade Brasileira de Computa{\c c}{\~a}o (SBC)}
+}
+```
+
+## 9. Maintainer
+
+- **Breno José Ribeiro de Vasconcelos** — Centro de Informática, Universidade Federal de Pernambuco (CIn/UFPE)
+- Email: <bjrv@cin.ufpe.br>
+- Web: <https://bvasconcelos.com>
+
+## 10. License
 
 The scripts and data in this repository are released under the MIT License (see `LICENSE`). Test videos (when downloaded) follow their respective upstream licenses (Big Buck Bunny: Creative Commons Attribution 3.0).
